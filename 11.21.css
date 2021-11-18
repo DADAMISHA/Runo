@@ -253,3 +253,59 @@ transition: all .3s;
 .post .topic .topic-title{
     color:#fff;
 }
+.post-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 20px;
+}
+footer{
+    width: 100%;
+    background: #212529;
+    padding: 106px 0px 0px 0px;
+    box-sizing: border-box;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+.footer-container h3{
+    font-weight: bolt;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+}
+.footer-container .header-social{
+    border: none;
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+}    
+.footer-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 18px 0px;
+}
+.footer-container a {
+    color: #E5E5E5;
+    font-size: 12px;
+    line-height: 15px;
+}
+.footer-container p {
+    color: #E5E5E5;
+    font-size: 12px;
+    line-height: 20px;
+}
+.subscribe{
+ width: 100%;
+ padding: 31px 0px;
+ margin-top: 106px;
+ background: #343A40;
+}
+.subscribe-flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    font-size: 14px;
+    line-height: 18px;
+    color: #E5E5E5;
+}
