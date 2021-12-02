@@ -255,7 +255,6 @@ transition: all .3s;
 }
 .post-list{
     display: flex;
-    flex-wrap: wrap;
     gap: 50px 20px;
 }
 footer{
@@ -308,4 +307,93 @@ footer{
     font-size: 14px;
     line-height: 18px;
     color: #E5E5E5;
+}
+.mobile-filter{
+    display: block;
+    margin: 15px 0px;
+}
+.mobile-filter p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #495057;
+}
+.mobile-filter select{
+    width: 100%;
+    border: none;
+    color: #495057;
+    padding: 5px 7px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.big-post-text{
+    width: auto;
+}
+.hamburger-lable{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.hamburger{
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 8px;
+}
+.hamburger::after,
+.hamburger::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 8px;
+    position: absolute;
+    left: 0px;
+    transition: .3s;
+}
+.hamburger::after{
+    transform: translateY(-10px);
+}
+.hamburger::before{
+    transform: translateY(10px);
+}
+#hamburger{
+    display: none;
+}
+#hamburger:checked ~ header .header-flex .mobile-hamburger-container .hamburger-lable .hamburger::before{
+    transform: rotate(45deg);
+    transition: .3s;
+}
+#hamburger:checked ~ header .header-flex .mobile-hamburger-container .hamburger-lable .hamburger::after{
+    transform: rotate(-45deg);
+    transition: .3s;
+}
+#hamburger:checked ~ header .header-flex .mobile-hamburger-container .hamburger-lable .hamburger{
+    height: 0px;
+}
+.mobile-menu{
+    position: absolute;
+    left: 0px;
+    top: -500px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+#hamburger:checked ~ header{
+    background: rgba(0, 0, 0, 0.7);
+}
+#hamburger:checked ~ header .mobile-menu {
+    top:80px;
+    transition: all 0.3s;
+}
+.mobile-menu ul li {
+    text-align: right;
+    font-size: 12px;
+    line-height: 20px;
+    color: #e5e5e5;
+}
+.mobile-menu ul a{
+    color: #e5e5e5;
 }

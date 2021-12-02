@@ -11,13 +11,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="11.21.css">
-</head>
+    <link rel="stylesheet" href="media.css" </head>
 
 <body>
+    <input type="checkbox" name="" id="hamburger">
     <header>
         <div class="header-flex">
             <div>
                 <img src="imeg/RUNO.png" alt="logo">
+            </div>
+            <div class="mobile-nav">
+                <div class="mobile-hamburger-container">
+                    <label class="hamburger-lable" for="hamburger">
+                        <span class="hamburger"></span>
+                    </label>
+                </div>
+                <div class="mobile-menu">
+                    <nav class="font-roboto">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Articles</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
             <div class="header-flex-2">
                 <nav class="header-nav font-roboto">
@@ -188,7 +206,7 @@
             <h2 class="h2-title">
                 Popular topics
             </h2>
-            <div >
+            <div>
                 <ul class="filter-list">
                     <li><a href="">All</a></li>
                     <li><a href="">Adventure</a></li>
@@ -196,132 +214,143 @@
                     <li><a href="">Fashion</a></li>
                     <li><a href="">Technology</a></li>
                     <li><a href="">Branding</a></li>
-                    
+
                     <li><a href="">View All</a></li>
                 </ul>
+                <div class="mobile-filter">
+                    <p>Filter</p>
+                    <select name="" id"">
+                        <option value="">All</option>
+                        <option value="">Adventure</option>
+                        <option value="">Travel</option>
+                        <option value="">Fashion</option>
+                        <option value="">Technology</option>
+                        <option value="">Branding</option>
+                    </select>
+                </div>
             </div>
             <div class="topics-list">
-             <div class="topic"> 
-                 <ul class="tag-list">
-                     <li><span class="tag">ADVENTURE</span></li>
-                     <li><span class="tag">Travel</span></li>
-                 </ul>
-                 <div class="topic-image">
-                     <img src="imeg/tag (1).png" alt="">
+                <div class="topic">
+                    <ul class="tag-list">
+                        <li><span class="tag">ADVENTURE</span></li>
+                        <li><span class="tag">Travel</span></li>
+                    </ul>
+                    <div class="topic-image">
+                        <img src="imeg/tag (1).png" alt="">
+                    </div>
+                    <p class="topic-date">08.08.2021</p>
+                    <p class="topic-title">Dream destinations to visit this
+                        year in Paris</p>
+                    <p class="topic-text">Progressively incentivize cooperative systems through
+                        technically sound functionalities. Credibly productivate
+                        seamless data with flexible schemas.
+                    </p>
                 </div>
-                 <p class="topic-date">08.08.2021</p>
-                 <p class="topic-title">Dream destinations to visit this
-                    year in Paris</p>
-                 <p class="topic-text">Progressively incentivize cooperative systems through
-                    technically sound functionalities. Credibly productivate
-                    seamless data with flexible schemas.
-                 </p>
-             </div>
-             <div class="topic"> 
-                <ul class="tag-list">
-                    <li><span class="tag">Travel</span></li>
-                </ul>
-                <div class="topic-image">
-                    <img src="imeg/tag(2).png" alt="">
-               </div>
-                <p class="topic-date">08.08.2021</p>
-                <p class="topic-title">Breathtaking first-person photos
-                    around Europe
-                   </p>
-                <p class="topic-text">Progressively incentivize cooperative systems through
-                    technically sound functionalities. Credibly productivate
-                    seamless data with flexible schemas.
-            </div>
-            <div class="topic"> 
-                <ul class="tag-list">    
-                    <li><span class="tag">Technology</span></li>
-                </ul>
-                <div class="topic-image">
-                    <img src="imeg/tag (3).png" alt="">
-               </div>
-                <p class="topic-date">08.08.2021</p>
-                <p class="topic-title">What collectors need to know about
-                    authenticity
-                   </p>
-                <p class="topic-text">Progressively incentivize cooperative systems through
-                    technically sound functionalities. Credibly productivate
-                    seamless data with flexible schemas.
-            </div>
-            <div class="topic"> 
-                <ul class="tag-list">
-                    <li><span class="tag">Fashion</span></li>
-                </ul>
-                <div class="topic-image">
-                    <img src="imeg/tag(4).png" alt="">
-               </div>
-                <p class="topic-date">08.08.2021</p>
-                <p class="topic-title">Instagram artists with great
-                    photography skills
-                   </p>
-                <p class="topic-text">Progressively incentivize cooperative systems through
-                    technically sound functionalities. Credibly productivate
-                    seamless data with flexible schemas.
-            </div>
-            <div class="topic"> 
-                <ul class="tag-list">
-                    <li><span class="tag">ADVENTURE</span></li>
-                </ul>
-                <div class="topic-image">
-                    <img src="imeg/tag (5).png" alt="">
-               </div>
-                <p class="topic-date">08.08.2021</p>
-                <p class="topic-title">Thins to know before visiting
-                    Cave in Germany
-                   </p>
-                <p class="topic-text">Progressively incentivize cooperative systems through
-                    technically sound functionalities. Credibly productivate
-                    seamless data with flexible schemas.
-            </div>
-            <div class="topic"> 
-                <ul class="tag-list">
-                    <li><span class="tag">Fashion</span></li>
-                </ul>
-                <div class="topic-image">
-                    <img src="imeg/tag (6).png" alt="">
-               </div>
-                <p class="topic-date">08.08.2021</p>
-                <p class="topic-title">Nina Smith vibrant work collab
-                    with Nike Dunk
-                   </p>
-                <p class="topic-text">Progressively incentivize cooperative systems through
-                    technically sound functionalities. Credibly productivate
-                    seamless data with flexible schemas.
-            </div>
-            <div class="topic"> 
-                <ul class="tag-list">
-                    <li><span class="tag">Technology</span></li>
-                </ul>
-                <div class="topic-image">
-                    <img src="imeg/tag (7).png" alt="">
-               </div>
-                <p class="topic-date">08.08.2021</p>
-                <p class="topic-title">Richard Norton photorealistic
-                    rendering as real photos
-                   </p>
-                <p class="topic-text">Progressively incentivize cooperative systems through
-                    technically sound functionalities. Credibly productivate
-                    seamless data with flexible schemas.
-            </div>
-            <div class="topic"> 
-                <ul class="tag-list">
-                    <li><span class="tag">Fashion</span></li>
-                </ul>
-                <div class="topic-image">
-                    <img src="imeg/tag (8).png" alt="">
-               </div>
-                <p class="topic-date">08.08.2021</p>
-                <p class="topic-title">25 quality collectors toys inspired
-                    by famous films
-                   </p>
-                <p class="topic-text">Progressively incentivize cooperative systems through
-                    technically sound functionalities. Credibly productivate
-                    seamless data with flexible schemas.
-            </div>
+                <div class="topic">
+                    <ul class="tag-list">
+                        <li><span class="tag">Travel</span></li>
+                    </ul>
+                    <div class="topic-image">
+                        <img src="imeg/tag(2).png" alt="">
+                    </div>
+                    <p class="topic-date">08.08.2021</p>
+                    <p class="topic-title">Breathtaking first-person photos
+                        around Europe
+                    </p>
+                    <p class="topic-text">Progressively incentivize cooperative systems through
+                        technically sound functionalities. Credibly productivate
+                        seamless data with flexible schemas.
+                </div>
+                <div class="topic">
+                    <ul class="tag-list">
+                        <li><span class="tag">Technology</span></li>
+                    </ul>
+                    <div class="topic-image">
+                        <img src="imeg/tag (3).png" alt="">
+                    </div>
+                    <p class="topic-date">08.08.2021</p>
+                    <p class="topic-title">What collectors need to know about
+                        authenticity
+                    </p>
+                    <p class="topic-text">Progressively incentivize cooperative systems through
+                        technically sound functionalities. Credibly productivate
+                        seamless data with flexible schemas.
+                </div>
+                <div class="topic">
+                    <ul class="tag-list">
+                        <li><span class="tag">Fashion</span></li>
+                    </ul>
+                    <div class="topic-image">
+                        <img src="imeg/tag(4).png" alt="">
+                    </div>
+                    <p class="topic-date">08.08.2021</p>
+                    <p class="topic-title">Instagram artists with great
+                        photography skills
+                    </p>
+                    <p class="topic-text">Progressively incentivize cooperative systems through
+                        technically sound functionalities. Credibly productivate
+                        seamless data with flexible schemas.
+                </div>
+                <div class="topic">
+                    <ul class="tag-list">
+                        <li><span class="tag">ADVENTURE</span></li>
+                    </ul>
+                    <div class="topic-image">
+                        <img src="imeg/tag (5).png" alt="">
+                    </div>
+                    <p class="topic-date">08.08.2021</p>
+                    <p class="topic-title">Thins to know before visiting
+                        Cave in Germany
+                    </p>
+                    <p class="topic-text">Progressively incentivize cooperative systems through
+                        technically sound functionalities. Credibly productivate
+                        seamless data with flexible schemas.
+                </div>
+                <div class="topic">
+                    <ul class="tag-list">
+                        <li><span class="tag">Fashion</span></li>
+                    </ul>
+                    <div class="topic-image">
+                        <img src="imeg/tag (6).png" alt="">
+                    </div>
+                    <p class="topic-date">08.08.2021</p>
+                    <p class="topic-title">Nina Smith vibrant work collab
+                        with Nike Dunk
+                    </p>
+                    <p class="topic-text">Progressively incentivize cooperative systems through
+                        technically sound functionalities. Credibly productivate
+                        seamless data with flexible schemas.
+                </div>
+                <div class="topic">
+                    <ul class="tag-list">
+                        <li><span class="tag">Technology</span></li>
+                    </ul>
+                    <div class="topic-image">
+                        <img src="imeg/tag (7).png" alt="">
+                    </div>
+                    <p class="topic-date">08.08.2021</p>
+                    <p class="topic-title">Richard Norton photorealistic
+                        rendering as real photos
+                    </p>
+                    <p class="topic-text">Progressively incentivize cooperative systems through
+                        technically sound functionalities. Credibly productivate
+                        seamless data with flexible schemas.
+                </div>
+                <div class="topic">
+                    <ul class="tag-list">
+                        <li><span class="tag">Fashion</span></li>
+                    </ul>
+                    <div class="topic-image">
+                        <img src="imeg/tag (8).png" alt="">
+                    </div>
+                    <p class="topic-date">08.08.2021</p>
+                    <p class="topic-title">25 quality collectors toys inspired
+                        by famous films
+                    </p>
+                    <p class="topic-text">Progressively incentivize cooperative systems through
+                        technically sound functionalities. Credibly productivate
+                        seamless data with flexible schemas.
+                </div>
             </div>
         </section>
         <section>
@@ -334,10 +363,11 @@
                         <h2>Richird Norton photorealistic rendering as real photos</h1>
                     </div>
                     <div>
-                        <p class="big-post-text">Progressively incentivize cooperative systems through technically sound functionalities. The credibly
+                        <p class="big-post-text">Progressively incentivize cooperative systems through technically sound
+                            functionalities. The credibly
                             productivate seamless data.</p>
                         <p class="middle-line1"></p>
-                            <p class="big-post-data">08.08.2021</p>
+                        <p class="big-post-data">08.08.2021</p>
                     </div>
                 </div>
                 <img src="imeg/baner 2.png" alt="">
@@ -347,55 +377,55 @@
             <h2 class="h2-title">
                 Editor’s Pick
             </h2>
-        <div class="post-list">
-            <div class="post">
-                <ul class="tag-list">
-                    <li><span class="tag">FASHION</span></li>
-                </ul>
-                <div class="topic">
-                    <p class="topic-date">08.08.2021</p>
-                    <p class="topic-title">Dream destinations to visit this
-                       year in Paris</p>
-                    <p class="topic-text">Progressively incentivize cooperative systems through
-                       technically sound functionalities. Credibly productivate
-                       seamless data with flexible schemas.
-                    </p>
+            <div class="post-list">
+                <div class="post">
+                    <ul class="tag-list">
+                        <li><span class="tag">FASHION</span></li>
+                    </ul>
+                    <div class="topic">
+                        <p class="topic-date">08.08.2021</p>
+                        <p class="topic-title">Dream destinations to visit this
+                            year in Paris</p>
+                        <p class="topic-text">Progressively incentivize cooperative systems through
+                            technically sound functionalities. Credibly productivate
+                            seamless data with flexible schemas.
+                        </p>
+                    </div>
+                    <img src="imeg/Blog Image (9).png" alt="">
                 </div>
-                <img src="imeg/Blog Image (9).png" alt="">
-            </div>
-        
-            <div class="post">
-                <ul class="tag-list">
-                    <li><span class="tag">FASHION</span></li>
-                </ul>
-                <div class="topic">
-                    <p class="topic-date">08.08.2021</p>
-                    <p class="topic-title">Dream destinations to visit this
-                       year in Paris</p>
-                    <p class="topic-text">Progressively incentivize cooperative systems through
-                       technically sound functionalities. Credibly productivate
-                       seamless data with flexible schemas.
-                    </p>
+
+                <div class="post">
+                    <ul class="tag-list">
+                        <li><span class="tag">FASHION</span></li>
+                    </ul>
+                    <div class="topic">
+                        <p class="topic-date">08.08.2021</p>
+                        <p class="topic-title">Dream destinations to visit this
+                            year in Paris</p>
+                        <p class="topic-text">Progressively incentivize cooperative systems through
+                            technically sound functionalities. Credibly productivate
+                            seamless data with flexible schemas.
+                        </p>
+                    </div>
+                    <img src="imeg/Blog Image (10).png" alt="">
                 </div>
-                <img src="imeg/Blog Image (10).png" alt="">
-            </div>
-            <div class="post">
-                <ul class="tag-list">
-                    <li><span class="tag">FASHION</span></li>
-                </ul>
-                <div class="topic">
-                    <p class="topic-date">08.08.2021</p>
-                    <p class="topic-title">Dream destinations to visit this
-                       year in Paris</p>
-                    <p class="topic-text">Progressively incentivize cooperative systems through
-                       technically sound functionalities. Credibly productivate
-                       seamless data with flexible schemas.
-                    </p>
+                <div class="post">
+                    <ul class="tag-list">
+                        <li><span class="tag">FASHION</span></li>
+                    </ul>
+                    <div class="topic">
+                        <p class="topic-date">08.08.2021</p>
+                        <p class="topic-title">Dream destinations to visit this
+                            year in Paris</p>
+                        <p class="topic-text">Progressively incentivize cooperative systems through
+                            technically sound functionalities. Credibly productivate
+                            seamless data with flexible schemas.
+                        </p>
+                    </div>
+                    <img src="imeg/Blog Image (11).png" alt="">
                 </div>
-                <img src="imeg/Blog Image (11).png" alt="">
+
             </div>
-            
-        </div>    
         </section>
     </main>
     <!---Подвал -->
@@ -542,12 +572,12 @@
                 </div>
             </div>
         </div>
-            </div>
+        </div>
         </div>
         <div class="subscribe">
             <div class="container subscribe-flex">
-            <p>2021 | RUNO Publisher Studio</p>
-            <p>Subscribe Now</p>
+                <p>2021 | RUNO Publisher Studio</p>
+                <p>Subscribe Now</p>
             </div>
         </div>
     </footer>
