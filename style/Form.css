@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-container{
+    width: 400px;
+    padding: 10px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, .3);
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-color: slateblue;
+}
+.input-container,
+.select-container{
+    position: relative;
+    margin-top: 15px;
+}
+.input-container input[type="text"],
+.input-container input[type="email"],
+.select-container select{
+    display: block;
+    width: 100%;
+    padding: 8px 7px 5px 7px ;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: rgb(0, 0, 0) solid 2px;
+    font-size: 18px;
+    line-height: 22px;
+}
+h2{
+    text-align: center;
+    background-color: rgb(224, 214, 214);
+    border-radius: 12px;
+}
+.input-container label{
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    background:slateblue;
+    border-radius: 0px 3px;
+}
+.input-container input:focus{
+    color: slateblue;
+}
+.select-container select{
+    appearance: none;
+    -webkit-appearance: none;
+}
+.checkbox-list{
+    margin-top: 15px;
+}
+.checkbox-container input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+}
+.checkbox-container label{
+    position: relative;
+    padding-left: 30px;
+    font-size: 18px;
+}
+.checkbox-container label::after,
+.checkbox-container label::before{
+    content: '';
+    position: absolute;
+    display: block;
+    border-radius: 5px;
+}
+.checkbox-container label::after{
+    width: 22px;
+    height: 22px;
+    background: rgb(200, 200, 200);
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+.checkbox-container label::before{
+    width: 20px;
+    height: 20px;
+    left: 1px;
+    top: 1px;
+    background: olive;
+    z-index: 2;
+    opacity: 0;
+    transition: all .3s;
+}
+.checkbox-container input[type="checkbox"]:checked + label::before{
+  opacity: 1;
+  transition: all .3s;
+}
